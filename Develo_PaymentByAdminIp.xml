@@ -1,0 +1,11 @@
+<config>
+    <modules>
+        <Develo_PaymentByAdminIp>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Payment/>
+            </depends>
+        </Develo_PaymentByAdminIp>
+    </modules>
+</config>

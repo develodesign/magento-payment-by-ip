@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Develo_PaymentByAdminIp>
+            <version>0.1.0</version>
+        </Develo_PaymentByAdminIp>
+    </modules>
+
+    <global>
+        <blocks>
+            <paymentbyadminip>
+                <class>Develo_PaymentByAdminIp_Block</class>
+            </paymentbyadminip>
+        </blocks>
+
+        <models>
+            <paymentbyadminip>
+                <class>Develo_PaymentByAdminIp_Model</class>
+            </paymentbyadminip>
+        </models>
+    </global>
+
+    <default>
+        <payment>
+            <paymentbyadminip>
+                <active>1</active>
+                <model>paymentbyadminip/paymentByAdminIp</model>
+                <order_status>pending</order_status>
+                <title>Payment By Admin IP</title>
+                <allowspecific>0</allowspecific>
+                <group>offline</group>
+            </paymentbyadminip>
+        </payment>
+    </default>
+</config>
