@@ -2,10 +2,11 @@
 /**
  * Payment method for allowing payment by certain IPs chosen in the admin.
  *
- * @category    Develo
- * @package     Develo_PaymentByAdminIp
- * @author      Doug Bromley <doug@develodesign.co.uk>
- * @copyright   Develo Design 2015
+ * @category Develo
+ * @package Develo_PaymentByAdminIp
+ * @author Doug Bromley <doug@develodesign.co.uk>
+ * @copyright Develo Design Ltd. 2015
+ * @license https://raw.githubusercontent.com/develodesign/magento-payment-by-ip/master/LICENSE MIT
  */
 
 class Develo_PaymentByAdminIp_Model_PaymentByAdminIp extends Mage_Payment_Model_Method_Abstract
